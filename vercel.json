@@ -9,5 +9,9 @@
             "src": "/(.*)",
             "dest": "shoppinglyx/wsgi.py"
         }
-    ]
+    ],
+    "scripts": {
+    "build": "pip install -r requirements.txt"
+  }
+
 }
